@@ -44,6 +44,7 @@ $(document).ready(function() {
 
 	Mousetrap.bind('up', function(e) {
 		if(y_coord == 0){
+			alert("invalid move") ;
 			console.log("invalid move");
 		}
 		else{
@@ -54,6 +55,7 @@ $(document).ready(function() {
 
 	Mousetrap.bind('down', function(e) {
 		if(y_coord == gridsz - 1){
+			alert("invalid move") ;
 			console.log("invalid move");
 		}
 		else{
@@ -64,6 +66,7 @@ $(document).ready(function() {
 
 	Mousetrap.bind('right', function(e) {
 		if(x_coord == gridsz - 1){
+			alert("invalid move") ;
 			console.log("invalid move");
 		}
 		else{
@@ -74,6 +77,7 @@ $(document).ready(function() {
 
 	Mousetrap.bind('left', function(e) {
 		if(x_coord == 0){
+			alert("invalid move") ;
 			console.log("invalid move");
 		}
 		else{
